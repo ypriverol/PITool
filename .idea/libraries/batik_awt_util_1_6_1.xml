@@ -1,0 +1,79 @@
+<component name="libraryTable">
+  <library name="batik-awt-util-1.6-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-awt-util-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-css-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-dom-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-ext-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-gui-util-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-gvt-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-parser-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-svg-dom-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-svggen-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-util-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/batik-xml-1.6-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/bcmail-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/bcprov-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/bctsp-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/braf-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/chardet-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/com.springsource.antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/com.springsource.org.apache.commons.io-1.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/com.springsource.org.apache.log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/commons-codec-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/cpdetector-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/dta-parser-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/fastutil-6.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/itext-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jargs-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/java-cup-0.11a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jaxb-api-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jaxb-impl-2.2.4-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jcommon-1.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jdom-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jfreechart-1.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jmzidentml-1.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jmzml-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jmzreader-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/json-20090211.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/junit-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/logback-classic-0.9.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/logback-core-0.9.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/mgf-parser-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/ms-data-core-api-0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/ms2-parser-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/mysql-connector-java-5.1.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/mzdata-parser-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/mzxml-parser-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pdf-renderer-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pkl-parser-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pride-chart-0.2.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pride-jaxb-1.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pride-mod-1.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/pride-utilities-0.1.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/slf4j-log4j12-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/spring-beans-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/spring-core-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/spring-jdbc-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/spring-tx-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/stax-api-1.0-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/weka-stable-3.6.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/xercesImpl-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/xmlParserAPIs-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/xxindex-0.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/lib/jaxb-xjc-2.2.4-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/target/lib/jaxb-xjc-2.2.4-1.jar!/1.0" />
+      <root url="jar://G:/.m2/repository/pride-utilities-0.1.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
