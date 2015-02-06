@@ -1,0 +1,645 @@
+JFDML JFormDesigner: "5.1.2.0.134" Java: "1.7.0_10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp TabbedPane::l:::x}"
+			"$verticalGroup": "par l {comp TabbedPane::l:::x}"
+		} ) {
+			name: "this"
+			"$sizePolicy": 0
+			"resizable": false
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "TabbedPane"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {seq {comp computeTheoreticalPiButton:::p::p, space :p:533:p, comp clearTableButton:::p::p}, comp scrollPane2::l::713:x}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp scrollPane2::::396:x, space s:::p, par b {comp computeTheoreticalPiButton::b:p::p, comp clearTableButton::b:p::p}, space :::p}}"
+				} ) {
+					name: "SequencePanel"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table2"
+							"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+							}, new java.util.Vector {
+								add( "Sequence" )
+								add( "Experimental Isoelectric Point" )
+								add( "Theorical Isoelectric Point" )
+								add( "Charge at pH" )
+							}, new java.util.Vector {
+								add( class java.lang.String )
+								add( class java.lang.Double )
+								add( class java.lang.Double )
+								add( class java.lang.Double )
+							}, new java.util.Vector {
+								add( false )
+								add( false )
+								add( false )
+								add( false )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+							"cellSelectionEnabled": true
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "computeTheoreticalPiButton"
+						"text": "Compute"
+						"enabled": false
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "computeTheoreticalPiButtonActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "clearTableButton"
+						"text": "Clear Table"
+						"enabled": false
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "clearTableButtonActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Sequences"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, par l {seq {comp computeStatisticalButton:::p::p, space :0:566:x}, comp scrollPane1::::713:x}, space :::p}}"
+					"$verticalGroup": "par l {seq t {space :::p, comp scrollPane1::::402:x, space u:::p, comp computeStatisticalButton:::p::p, space :p::p}}"
+				} ) {
+					name: "StatisticalPanel"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "computeStatisticalButton"
+						"text": "Compute Stats Fraction"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "computeStatisticalButtonActionPerformed", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+							"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector {
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+								add( new java.util.Vector {
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+									add( null )
+								} )
+							}, new java.util.Vector {
+								add( "Fraction" )
+								add( "Number of elements" )
+								add( "pI_mean exp" )
+								add( "pI_mean teo" )
+								add( "Standard Dev" )
+								add( "Outliers count" )
+							}, new java.util.Vector {
+								add( class java.lang.Object )
+								add( class java.lang.Integer )
+								add( class java.lang.Double )
+								add( class java.lang.Double )
+								add( class java.lang.Double )
+								add( class java.lang.Double )
+							}, new java.util.Vector {
+								add( false )
+								add( false )
+								add( false )
+								add( false )
+								add( false )
+								add( false )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+							"columnSelectionAllowed": true
+							"gridColor": new java.awt.Color( 204, 204, 204, 255 )
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Statisticals"
+					"enabled": false
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, comp plotDispersionButton:::p::p, space ::203:x, comp label2:::p::p, space :p:4:p, comp formattedTextField2:::p:52:p, space :p:48:p, comp label1:::p::p, space :p:4:p, comp formattedTextField1:::p:52:p, space :p:137:p}, comp panel2::l:::x}"
+					"$verticalGroup": "par l {seq t {comp panel2:::::x, space u:::p, par l {par b {comp formattedTextField1::b:p::p, comp label1::b:p::p, comp formattedTextField2::b:p::p, comp label2::b:p::p}, comp plotDispersionButton::l:p::p}, space :::p}}"
+				} ) {
+					name: "panel1"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "plotDispersionButton"
+						"text": "Get Plot"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "plotDispersionButtonActionPerformed", true ) )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {space :0:735:x}"
+						"$verticalGroup": "par l {space :0:412:x}"
+					} ) {
+						name: "panel2"
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, true )
+						addEvent( new FormEvent( "java.beans.PropertyChangeListener", "propertyChange", "panel2PropertyChange", true, "visible" ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "Standard Deviation:"
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField1"
+						"editable": false
+						"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+					} )
+					add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+						name: "formattedTextField2"
+						"editable": false
+						"background": #Color0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Correlation:"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Dispersion Plot"
+					"enabled": false
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, comp plotDistributionButton:::p::p, space :::x, comp checkBox1:::p::p, space :p:72:p, comp checkBox2:::p::p, space :p:88:p}, comp panel4::l:::x}"
+					"$verticalGroup": "par l {seq l {comp panel4:::::x, space u:::p, par l {seq {par b {comp checkBox2::b:p::p, comp checkBox1::b:p::p}, space :p:9:p}, seq t {comp plotDistributionButton:::p::p, space :::p}}}}"
+				} ) {
+					name: "panel3"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {space :0:735:x}"
+						"$verticalGroup": "par l {space :0:416:x}"
+					} ) {
+						name: "panel4"
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, true )
+						"preferredSize": new java.awt.Dimension( 737, 418 )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "plotDistributionButton"
+						"text": "Get Plot"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "plotDistributionButtonActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox1"
+						"text": "Experimental pI distribution"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "checkBox1ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox2"
+						"text": "Theoretical pI distribution"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "checkBox2ActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Distribution Plot"
+					"enabled": false
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {comp panel6::l:::x, seq l {space :::p, comp plotFractionButton:::p::p, space ::653:x}}"
+					"$verticalGroup": "par l {seq l {comp panel6:::::x, space :::p, comp plotFractionButton:::p::p, space :p:11:p}}"
+				} ) {
+					name: "panel5"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {space :0:735:x}"
+						"$verticalGroup": "par l {space :0:418:x}"
+					} ) {
+						name: "panel6"
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+						"foreground": sfield java.awt.Color gray
+						"autoscrolls": true
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "plotFractionButton"
+						"text": "Get Plot"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "plotFractionButtonActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Fractions Plot"
+					"enabled": false
+				} )
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "fileMenu"
+					"text": "File"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menu1ActionPerformed", true ) )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "importMenu"
+						"text": "Import Data"
+						add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+							name: "importTxtFileMenu"
+							"text": "TXT File"
+							add( new FormComponent( "javax.swing.JMenuItem" ) {
+								name: "importTSVMenuItem"
+								"text": "Tab Separated Value File"
+								addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "importTSVMenuItemActionPerformed", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JMenuItem" ) {
+								name: "importCSVMenuItem"
+								"text": "Coma Separated Value File"
+								addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "importCSVMenuItemActionPerformed", true ) )
+							} )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "importExcelMenuItem"
+							"text": "XLS File"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "importExcelMenuItemActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "importMzidentmlMenuItem"
+							"text": "mzidentML File"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "exportMenu"
+						"text": "Export Data"
+						"enabled": false
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "exportCsvMenuItem"
+							"text": "CSV File"
+							"enabled": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exportCsvMenuItemActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "exportExcelMenuItem"
+							"text": "XLS File"
+							"enabled": false
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator1"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "exitMenuItem"
+						"text": "Exit"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "exitMenuItemActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "processMenu"
+					"text": "Process"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "methodSettingsMenuItem"
+						"text": "Methods Settings"
+						"enabled": false
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "calculatepIMenuItemActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "methodSettingsMenuItemActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "helpMenu"
+					"text": "Help"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "aboutMenuItem"
+						"text": "About"
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 755, 540 )
+		} )
+	}
+}
