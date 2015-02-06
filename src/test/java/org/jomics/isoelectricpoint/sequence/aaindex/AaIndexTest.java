@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.sequence.aaindex;
+package org.jomics.isoelectricpoint.sequence.aaindex;
 
 import org.junit.Before;
 import org.junit.Test;

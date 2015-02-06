@@ -1,10 +1,10 @@
-package uk.ac.ebi.pride.sequence.isoelectricpoint;
+package org.jomics.isoelectricpoint.sequence.isoelectricpoint;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import uk.ac.ebi.pride.utilities.mol.AminoAcid;
-import uk.ac.ebi.pride.sequence.isoelectricpoint.bjellpI.BjellpI;
+import org.jomics.isoelectricpoint.sequence.isoelectricpoint.bjellpI.BjellpI;
 
 import java.util.ArrayList;
 import java.util.List;

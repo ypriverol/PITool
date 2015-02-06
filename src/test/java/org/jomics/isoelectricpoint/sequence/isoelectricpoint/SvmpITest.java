@@ -1,11 +1,11 @@
-package uk.ac.ebi.pride.sequence.isoelectricpoint;
+package org.jomics.isoelectricpoint.sequence.isoelectricpoint;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import uk.ac.ebi.pride.utilities.mol.AminoAcid;
-import uk.ac.ebi.pride.sequence.isoelectricpoint.bjellpI.BjellpI;
-import uk.ac.ebi.pride.sequence.isoelectricpoint.svmpI.SvmpI;
+import org.jomics.isoelectricpoint.sequence.isoelectricpoint.bjellpI.BjellpI;
+import org.jomics.isoelectricpoint.sequence.isoelectricpoint.svmpI.SvmpI;
 import weka.experiment.PairedStats;
 
 import java.io.File;

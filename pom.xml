@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jomics</groupId>
-    <artifactId>isoelctric-point-tool</artifactId>
+    <artifactId>isoelectric-point-tool</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
@@ -104,6 +104,32 @@
                     <source>1.6</source>
                     <target>1.6</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+
+                    <excludes>
+                        <exclude>**/test</exclude>
+                        <exclude>**/test/*.class</exclude>
+                    </excludes>
+                    <archive>
+                        <manifest>
+                            <mainClass>org.jomics.isoelectricpoint.app.IsoelectricPointTool</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

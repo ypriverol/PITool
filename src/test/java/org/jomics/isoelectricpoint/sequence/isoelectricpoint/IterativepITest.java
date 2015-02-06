@@ -1,11 +1,10 @@
-package uk.ac.ebi.pride.sequence.isoelectricpoint;
-
+package org.jomics.isoelectricpoint.sequence.isoelectricpoint;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import uk.ac.ebi.pride.utilities.mol.AminoAcid;
-import uk.ac.ebi.pride.sequence.isoelectricpoint.cofactorAdjacentpI.CofactorAdjacentpI;
+import org.jomics.isoelectricpoint.sequence.isoelectricpoint.iterativepI.IterativepI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,14 +12,14 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 
 /**
- *
+ * Created with IntelliJ IDEA.
  * User: yperez
- * Date: 4/19/13
- * Time: 1:55 AM
- * */
-public class CofactorAdjacentpITest {
-
-    CofactorAdjacentpI calculator = null;
+ * Date: 8/15/13
+ * Time: 12:33 AM
+ * To change this template use File | Settings | File Templates.
+ */
+public class IterativepITest {
+    IterativepI calculator = null;
 
     @Test
     public void testComputePIGroup() throws Exception {
@@ -34,21 +33,17 @@ public class CofactorAdjacentpITest {
 
         Double sequencesPI = calculator.computePI(sequence);
 
-        System.out.println(sequencesPI);
-
-        assertTrue("Isoelectric Point equal to ", sequencesPI == 3.7196044921875);
+        assertTrue("Isoelectric Point equal to ", sequencesPI == 3.5011146068573);
 
 
     }
 
     @Before
     public void setUp() throws Exception {
-        calculator = CofactorAdjacentpI.getInstance();
+        calculator = IterativepI.getInstance(IterativepI.LEHNINGER_PKMETHOD, 4.8);
     }
 
     @After
     public void tearDown() throws Exception {
     }
-
-
 }
